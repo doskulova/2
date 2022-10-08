@@ -1,25 +1,18 @@
 
-
+const person={
+    userName:"Din",
+    userAge:22,
+    hobbi:"Play game",
+} ;  
 const promise = new Promise((resolve) =>{
-    resolve();
+    resolve(person);
 });
 promise
 .then( () => {
-    let person={
-        userName:"Din",
-        userAge:22,
-        hobbi:"Play game",
-    };    
-    
-    const person1 = JSON.parse=(person);
+    JSON.parse=(person);
 })
 .then (() =>{
-    let person={
-        userName:"Din",
-        userAge:22,
-        hobbi:"Play game",
-    };    
-    const person1 = JSON.parse=(person);
-    console.log(person1)
+    console.log(person)
     
 });
+
